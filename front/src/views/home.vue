@@ -1,6 +1,6 @@
 <template>
     <div class="home-con">
-        <h1>welcome to the boilerplate.</h1>
+        <h1>bre</h1>
     </div>
 </template>
 
