@@ -15,5 +15,5 @@ git commit -m "$1 $MSG"
 git push
 echo "---------------------- Deploying lim ------------------------------------------"
 # below is an example of how i deploy to digital ocean, feel free to do whatever you want
-# ssh <<enter your ssh address>> 'cd /var/www/lim && git reset --hard && git pull && sudo systemctl restart lim.service'
+ssh hamishclulee@more-art-than.science 'cd /var/www/bre && git reset --hard && git pull && sudo systemctl restart bre.service'
 echo "---------------------- Deploy complete. Have a nice day. ----------------------"
