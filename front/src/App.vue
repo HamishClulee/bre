@@ -1,5 +1,5 @@
 <template>
-  <div class="god-div" :class="$route.name === 'home' ? 'fix-con' : ''">
+  <div class="god-div">
       <navbar></navbar>
       <div v-if="isauthed">
           <router-view></router-view>
@@ -33,8 +33,4 @@
 <style lang="sass" scoped>
     .god-div
         overflow-x: hidden !important
-    .fix-con
-        height: 100vh
-        width: 100vw
-        overflow: hidden !important
 </style>

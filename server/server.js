@@ -16,6 +16,7 @@ let history = require('connect-history-api-fallback')
 let _static = express.static('front-end')
 let _config = require('./config/app.js')
 let compression = require('compression')
+// let scraper = require('./app/scrape.js')
 
 // logging ===================================================================
 if (process.env.NODE_ENV === 'production') {
@@ -60,20 +61,16 @@ app.set('view engine', 'ejs')
 app.use('/', require('./app/routes/auth'))
 // API ====================================================
 app.use('/api', require('./app/routes/api.js'))
-// ADMIN ==================================================
-
-// PAYMENT ================================================
-
 // STATIC =================================================
 app.use(_static)
-
 // SETTINGS ===================================================================
 app.use(history({
     verbose: true,
     disableDotRule: true
 }))
 app.get('*', _static)
-
+// SCRAPE =====================================================================
+// scraper()
 // launch =====================================================================
 app.listen(port)
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar-con" :class="$route.name === 'home' ? 'trans-back' : 'block-back'">
+    <div class="navbar-con">
 
         <div class="left-con">
             <div class="logo-con">
@@ -8,6 +8,7 @@
                 </router-link>
             </div>
         </div>
+
     </div>
 </template>
 
@@ -21,29 +22,20 @@ export default {
     .navbar-con
         color: $font-light
         height: 65px
-        width: 70vw
+        width: 100%
         display: flex
         flex-direction: row
         align-items: center
         justify-content: space-between
-        padding-left: 20px
-        padding-right: 20px
-    .trans-back
-        bacground-color: transparent
-        position: absolute
-        top: 20px
-        left: 0
-    .block-back
-        bacground-color: $secondary-light
+        background: $tertiary-light
     .left-con, .right-con
         display: flex
         flex-direction: row
         align-items: center
         justify-content: space-evenly
     .right-con
-        width: 70vw
+        width: 50vw
     .nav-item
-
         a
             color: $font-light
             text-decoration: none

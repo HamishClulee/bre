@@ -1,32 +1,34 @@
 <template>
     <div class="home-con">
-        <hero></hero>
-        <div class="hero-overlay-con">
-            <div class="nav-item">
-                <h6>Modern Villa Living</h6>
-                <router-link tag="h5" :to="{ name: 'rayasemat' }">Pom Pom's - Raya Semat</router-link>
-            </div>
-            <div class="nav-item">
-                <h6>Co-work, Co-live, enjoy!</h6>
-                <router-link tag="h5" :to="{ name: 'rayacanggu' }">Pom Pom's - Raya Canggu</router-link>
-            </div>
-            <div class="nav-item">
-                <h6>Cut out the middle men</h6>
-                <router-link tag="h5" :to="{ name: 'book' }">Book Now</router-link>
-            </div>
-        </div>
+        <fpsection heading="Full Day Tours">
+            <fpgrid :content="c.C.fullday"></fpgrid>
+        </fpsection>
+        <fpsection heading="Half Day Tours">
+            <fpgrid :content="c.C.halfday"></fpgrid>
+        </fpsection>
+        <fpsection heading="Trekking">
+            <fpgrid :content="c.C.trekking"></fpgrid>
+        </fpsection>
+        <fpsection heading="Activities">
+            <fpgrid :content="c.C.activities"></fpgrid>
+        </fpsection>
     </div>
+    
 </template>
 
 <script>
-import hero from '../components/hero'
+import FPSection from '../components/fpsection.vue'
+import FPGrid from '../components/fpgrid.vue'
+import C from '../content.js'
 export default {
     components: {
-        hero,
+        fpsection: FPSection,
+        fpgrid: FPGrid
     },
     name: 'home',
     data () {
         return {
+            c: C
         }
     },
     mounted () {
