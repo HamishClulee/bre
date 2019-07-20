@@ -23,7 +23,6 @@ export default {
     align-items: center
     justify-content: center
     flex-direction: column
-    background-image: url('../assets/living.webp')
 .grid-item-title
     font-weight: bolder
     text-align: center
