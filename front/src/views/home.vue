@@ -1,16 +1,16 @@
 <template>
     <div class="home-con">
         <fpsection heading="Full Day Tours">
-            <fpgrid heading="Full Day Tours" :content="c.C.fullday"></fpgrid>
+            <fpgrid heading="Full Day Tours" type="fullday" :content="c.C.fullday"></fpgrid>
         </fpsection>
         <fpsection heading="Half Day Tours">
-            <fpgrid heading="Half Day Tours" :content="c.C.halfday"></fpgrid>
+            <fpgrid heading="Half Day Tours" type="halfday" :content="c.C.halfday"></fpgrid>
         </fpsection>
         <fpsection heading="Trekking">
-            <fpgrid heading="Trekking" :content="c.C.trekking"></fpgrid>
+            <fpgrid heading="Trekking" type="trekking" :content="c.C.trekking"></fpgrid>
         </fpsection>
         <fpsection heading="Activities">
-            <fpgrid heading="Activities" :content="c.C.activities"></fpgrid>
+            <fpgrid heading="Activities" type="activities" :content="c.C.activities"></fpgrid>
         </fpsection>
     </div>
     

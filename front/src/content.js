@@ -25,10 +25,7 @@ const C = {
         "content": {
           "imgs": [
             "Besakih-Temple-1.jpg",
-            "Celuk-Gold-and-Silver-Village-6.jpg",
             "tirta-empul-2.jpg",
-            "Pura-kehen.jpg",
-            "Desa-Penglipuran.jpg",
             "9.jpg",
             "toya-bungkah.jpg",
             "Telaga-Waja-Rafting-Tour-1.jpg",
@@ -48,8 +45,6 @@ const C = {
         "content": {
           "imgs": [
             "Tirta-gangga-park-4.jpg",
-            "Taman-Ujung-Water-Palace-8.jpg",
-            "Virgin-Beach.jpg",
             "ubud-royal-place-1.jpg",
             "Mount-Batur-Sunrise-5.jpg",
             "Aling-aling-waterfall.jpg",
@@ -70,7 +65,6 @@ const C = {
           "imgs": [
             "Aling-aling-waterfall.jpg",
             "taman-ayung-temple-6.jpg",
-            "Bedugul-Botanical-Garden-6.jpg",
             "Bali-Ulun-Danu-Berata-2.jpg",
             "Candi-Kuning-Market-10.jpg",
             "Bali-Water-Ski-Tour-8.jpg",
@@ -93,7 +87,6 @@ const C = {
           "imgs": [
             "taman-ayung-temple-6.jpg",
             "Bali-Ulun-Danu-Berata-2.jpg",
-            "Bedugul-Botanical-Garden-6.jpg",
             "Candi-Kuning-Market-10.jpg",
             "Jatiluwih-Rice-Terrace-2.jpg",
             "Bali-Tanah-Lot-Temple-17.jpg",
@@ -537,7 +530,6 @@ const C = {
           "imgs": [
             "lempuyang-trekking-tour.jpg",
             "Tirta-gangga-park-4.jpg",
-            "Taman-Ujung-Water-Palace-8.jpg",
             "taman-ayung-temple-6.jpg",
             "Ayung-Rafting-1.jpg",
             "ubud-royal-place-1.jpg",

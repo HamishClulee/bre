@@ -14,10 +14,9 @@ export default new Router({
             component: home
         },
         {
-            path: '/tour/:tourname',
+            path: '/:type/:index/:tourname',
             name: 'tour',
-            component: tour,
-            props: true
+            component: tour
         },
         {
             path: '*',

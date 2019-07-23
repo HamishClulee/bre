@@ -3,7 +3,7 @@
     <router-link 
         class="grid-item-container"
         :to="{ name: 'tour', 
-            params: { tourname: makeurl, content: itm, type: heading }
+            params: { tourname: makeurl, type: type, index: index }
         }"
         :style="{ background: 'linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(' + require('../assets/' + itm.content.imgs[0]) + ')'}">
             <div class="grid-item-text-container">
@@ -15,18 +15,16 @@
 
 <script>
 export default {
+    name: 'fpgriditem',
     props: {
         itm: Object,
-        heading: String
-    },
-    data () {
-        return {
-            image: './9.jpg'
-        }
+        heading: String,
+        type: String,
+        index: String,
     },
     computed: {
         makeurl() {
-            return this.itm.title.toLowerCase().replace(' ', '-')
+            return this.itm.title.toLowerCase()
         },
         builddes() {
             return this.itm.description

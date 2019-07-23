@@ -1,6 +1,6 @@
 <template>
     <div class="grid-container">
-        <fpgriditem v-for="(itm, i) in content" :key="i" :itm="itm"></fpgriditem>
+        <fpgriditem :index="String(i)" :type="type" v-for="(itm, i) in content" :key="i" :itm="itm"></fpgriditem>
     </div>
 </template>
 
@@ -12,7 +12,8 @@ export default {
         fpgriditem: FPGridItem
     },
     props: {
-        content: Array
+        content: Array,
+        type: String
     }
 }
 </script>

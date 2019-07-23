@@ -4,6 +4,9 @@ import App from './App.vue'
 import store from './store'
 import router from './router'
 
+import {VueMasonryPlugin} from 'vue-masonry'
+
+Vue.use(VueMasonryPlugin)
 Vue.use(store)
 Vue.use(router)
 Vue.config.productionTip = false
