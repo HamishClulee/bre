@@ -1,6 +1,5 @@
 <template>
     <div class="navbar-con">
-
         <div class="left-con">
             <div class="logo-con">
                 <router-link :to="{ name: 'home' }">
@@ -8,7 +7,6 @@
                 </router-link>
             </div>
         </div>
-
     </div>
 </template>
 

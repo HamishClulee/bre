@@ -66,7 +66,6 @@ const C = {
             "Aling-aling-waterfall.jpg",
             "taman-ayung-temple-6.jpg",
             "Bali-Ulun-Danu-Berata-2.jpg",
-            "Candi-Kuning-Market-10.jpg",
             "Bali-Water-Ski-Tour-8.jpg",
             "turbing.jpg",
             "TegenunganWaterfall02.jpg",
@@ -87,13 +86,10 @@ const C = {
           "imgs": [
             "taman-ayung-temple-6.jpg",
             "Bali-Ulun-Danu-Berata-2.jpg",
-            "Candi-Kuning-Market-10.jpg",
-            "Jatiluwih-Rice-Terrace-2.jpg",
             "Bali-Tanah-Lot-Temple-17.jpg",
             "Mount-Batur-Sunrise-5.jpg",
             "Tirta-gangga-park-4.jpg",
-            "bali-atv-ride-1.jpg",
-            "TegenunganWaterfall02.jpg"
+            "bali-atv-ride-1.jpg"
           ],
           "description": [
             "Bali Bedugul and Tanah Lot Sunset Tour will start with visiting Taman Ayun Royal Family Temple, The temple was build in 1634 which surrounded by moat and beautiful garden.  Drive up to top of mountain to visit Bedugul, Ulun Danu Temple on the lake with fascinating panorama with green mountain as back ground. Next stop is traditional fruit market in Candikuning , to get an experience of tropical fruit tasting. Then visit UNESCO world heritage rice terraces of Jatiluwih which  refresh your eyes and mind with green colour of rice paddy grass. The last Destination will be Tanah Lot Temple on the rock which was build off shore the sea. Here is one of the best site to see sunset.",
@@ -109,9 +105,6 @@ const C = {
         "content": {
           "imgs": [
             "Uluwatu-Temple-4.jpg",
-            "WaterBlow03.jpg",
-            "Garuda-Wisnu-Kencana-2.jpg",
-            "Padang-Padang-Beach-3.jpg",
             "Uluwatu-Temple-11.jpg",
             "bali-atv-ride-1.jpg",
             "Bali-Water-Ski-Tour-8.jpg",
@@ -132,10 +125,7 @@ const C = {
           "imgs": [
             "Bali-Tanah-Lot-Temple-17.jpg",
             "Barong-and-Kecak-Dance.jpg",
-            "Ubud-Art-Market-4.jpg",
             "Batuan-Temple-1.jpg",
-            "monkey-forest-1.jpg",
-            "ubud-royal-place-2.jpg",
             "Uluwatu-Temple-4.jpg",
             "Bali-Ulun-Danu-Berata-2.jpg",
             "TegenunganWaterfall02.jpg",
@@ -156,11 +146,7 @@ const C = {
           "imgs": [
             "TegenunganWaterfall02.jpg",
             "Tegalalang-Rice-Terrace-3.jpg",
-            "Ubud-Art-Market-4.jpg",
-            "monkey-forest-1.jpg",
-            "ubud-royal-place-2.jpg",
             "Mount-Agung-Sunrise-10.jpg",
-            "TOYOTA-HIACE.jpg",
             "Bali-Water-Ski-Tour-8.jpg",
             "ubud-royal-place-1.jpg"
           ],
@@ -172,29 +158,6 @@ const C = {
           ]
         }
       },
-      {
-        "title": "Transport Rates",
-        "description": "IDR150.000/car per day",
-        "link": "https:\/\/baliclassictour.com\/tour\/transport-rates\/",
-        "content": {
-          "imgs": [
-            "taman-ayung-temple-6.jpg",
-            "monkey-forest-1-1.jpg",
-            "Bali-Tanah-Lot-Temple-17.jpg",
-            "ubud-royal-place-1.jpg",
-            "lempuyang-trekking-tour.jpg",
-            "bali-atv-ride-1.jpg",
-            "Besakih-Temple-1.jpg"
-          ],
-          "description": [
-            "Uluwatu-Temple-11.jpg",
-            "Ayung-Rafting-1.jpg",
-            "Bali-Ulun-Danu-Berata-2.jpg",
-            "turbing.jpg",
-            "Tirta-gangga-park-4.jpg"
-          ]
-        }
-      }
     ],
     "halfday": [
       {
@@ -223,7 +186,6 @@ const C = {
         "content": {
           "imgs": [
             "taman-ayung-temple-6.jpg",
-            "monkey-forest-1-1.jpg",
             "Bali-Tanah-Lot-Temple-17.jpg",
             "ubud-royal-place-1.jpg",
             "lempuyang-trekking-tour.jpg",
@@ -244,7 +206,6 @@ const C = {
         "content": {
           "imgs": [
             "ubud-royal-place-1.jpg",
-            "monkey-forest-1-1.jpg",
             "Mount-Agung-Sunrise-10.jpg",
             "bali-atv-ride-1.jpg",
             "lempuyang-trekking-tour.jpg",
@@ -408,11 +369,9 @@ const C = {
           "imgs": [
             "toya-bungkah.jpg",
             "Mount-Batur-Sunrise-5.jpg",
-            "Coffee-Plantation-3.jpg",
             "Besakih-Temple-1.jpg",
             "Mount-Agung-Sunrise-10.jpg",
-            "Ayung-Rafting-1.jpg",
-            "TOYOTA-HIACE.jpg"
+            "Ayung-Rafting-1.jpg"
           ],
           "description": [
             "Mount Batur volcano is one of the  sacred mountain according to Hindu believe. Mount Batur is located in Batur village, Kintamani District, Bali, Indonesia. Mount Batur (Gunung Batur) is 1717 m above sea level can be summited by physically fit hikers in around 2 hours.",
@@ -429,7 +388,6 @@ const C = {
         "content": {
           "imgs": [
             "Mount-Batur-Sunrise-5.jpg",
-            "Coffee-Plantation-3.jpg",
             "toya-bungkah.jpg",
             "turbing.jpg",
             "Mount-Agung-Sunrise-10.jpg",
@@ -451,7 +409,6 @@ const C = {
           "imgs": [
             "Twin-Lake-Trekking.jpg",
             "Mount-Batur-Sunrise-5.jpg",
-            "Coffee-Plantation-3.jpg",
             "toya-bungkah.jpg",
             "Ayung-Rafting-1.jpg",
             "9.jpg",
@@ -473,8 +430,7 @@ const C = {
             "Mount-Batur-Sunrise-5.jpg",
             "bali-atv-ride-1.jpg",
             "toya-bungkah.jpg",
-            "Kintamani-Village-7.jpg",
-            "TOYOTA-HIACE.jpg",
+            "Kintamani-Village-7.jpg"
           ],
           "description": [
             "Mount Batur Sunrise Trekking and ATV Quad Ride will challenge your physic and fitness. First you will climb the Volcano about 2 hours to get the top 1717m to see the amazing view of sunrise and lake Batur with Mount Abang as background.",
@@ -491,7 +447,6 @@ const C = {
           "imgs": [
             "Bali-Ulun-Danu-Berata-2.jpg",
             "Twin-Lake-Trekking.jpg",
-            "Jatiluwih-Rice-Terrace-2.jpg",
             "bali-atv-ride-1.jpg",
             "toya-bungkah.jpg",
             "Bali-Tanah-Lot-Temple-17.jpg",
@@ -514,7 +469,6 @@ const C = {
             "Bali-Ulun-Danu-Berata-2.jpg",
             "Bali-Tanah-Lot-Temple-17.jpg",
             "Bali-Water-Ski-Tour-8.jpg",
-            "TOYOTA-HIACE.jpg",
             "9.jpg"
           ],
           "description": [
@@ -549,7 +503,6 @@ const C = {
         "content": {
           "imgs": [
             "Mount-Agung-Sunrise-10.jpg",
-            "TOYOTA-HIACE.jpg",
             "Bali-Water-Ski-Tour-8.jpg",
             "Besakih-Temple-1.jpg",
             "bali-atv-ride-1.jpg"
@@ -561,35 +514,6 @@ const C = {
             "After more than 100 years of slumber, mount Agung came back to life on February 18, 1963. Loud noises and a cloud rising from the crater were noticed, then the ejection of bombs and blocks. On February 24, 1963, highly viscous lava flows began to travel down the northern flank of the volcano, reaching a length of 7 km in about 18 to 20 days and an elevation of 510 m above sea level.",
             "The flows were about 0.5-0.8 km wide and 30-40 m thick. Rough estimates indicate a total volume of these flows of about 50 million cubic meters. After that phase, the eruption became more and more explosive, and on March 17, 1963, the paroxysmal sub-Plinian eruption took place, generating an eruption column of 8-10 km height that collapsed to form devastating pyroclastic flows.",
             "These flows reached distances of up to 15 km from the crater following valleys to the south and east, at speeds of about 60 km\/hour. Many villages were destroyed and more than 1000 people lost their lives. Heavy tephra fall occurred in areas west of the volcano, where up to 50-70 cm of ash were deposited. In May, the south peak of the crater wall collapsed, lowering its height for about 200 meters. The lowest crater wall at present is the upper end of Langon river (2600 m)."
-          ]
-        }
-      },
-      {
-        "title": "car Rental",
-        "description": "IDR550.000/car",
-        "link": "https:\/\/baliclassictour.com\/tour\/car-rental\/",
-        "content": {
-          "imgs": [
-            "TOYOTA-HIACE.jpg",
-            "9.jpg",
-            "2.jpg",
-            "3.jpg",
-            "isuzu-elf.jpg",
-            "2-300x169.jpg",
-            "9-300x169.jpg",
-            "3-300x169.jpg",
-            "isuzu-elf-01-300x169.jpg",
-            "TOYOTA-HIACE-300x169.jpg",
-            "isuzu-elf-300x169.jpg",
-            "Bali-Water-Ski-Tour-8.jpg",
-            "Besakih-Temple-1.jpg",
-            "Bali-Ulun-Danu-Berata-2.jpg",
-            "Uluwatu-Temple-4.jpg"
-          ],
-          "description": [
-            "car Rental  is the best way to explore the island with Balinese English Speaking Driver.  We are ready to drive anywhere you want to go on the island of Bali. Will be great to drive you to have a look hustle and bustle of Kuta and Denpasar City or quite place in the villages in every corner of the island.",
-            "We can drive you anywhere you please and at any time that suits you. We\u2019ll help you plan your holiday by discussing traveling times and distances to your destinations. Let you know if your travels will take you close to interesting places that you could visit on your way.",
-            "Bali car Hire, Bali Private car Rental, Rent a car in Bali, car Hire Denpasar Airport, Cheap Bali car Rental Company, Bali Rent car With Driver Hire, car Hire Bali Free Delivery, Cheap Bali car Rental, Bali Rent car with Self Drive, Cheap Bali car Rental with Driver. Get Special Price, Delivery and Return at your Hotel and Villa Pick your car. Free Delivery, Unlimited Kilometers, Brand New with Insurance & Get your Bali car Now."
           ]
         }
       }

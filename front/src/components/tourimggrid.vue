@@ -1,12 +1,7 @@
 <template>
     <div class="img-grid-container">
-        <!-- <div v-for="(img, ind) in imgs" :key="ind" class="img-container">
-            
-        </div> -->
-        <div v-masonry origin-left="false" transition-duration="1s" item-selector=".item">
-            <div v-masonry-tile class="item" v-for="(img, index) in imgs" :key="index">
-                <img :src="require('../assets/' + img)" />
-            </div>
+        <div v-for="(img, ind) in imgs" :key="ind" class="img-container" v-show="ind < 6">
+            <img :src="require('../assets/' + String(img))" />
         </div>
     </div>
 </template>
@@ -29,9 +24,13 @@ export default {
 .img-grid-container
     display: flex
     flex-direction: row
+    align-items: center
+    justify-content: center
     flex-wrap: wrap
+    padding: 15px
 .img-container
-    width: 45%
     margin: 5px
+    img
+        max-width: 400px
 </style>
 

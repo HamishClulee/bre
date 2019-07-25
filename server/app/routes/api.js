@@ -1,12 +1,12 @@
 let express = require('express')
 let router = express.Router()
-let _email = require('../models/subscription.js')
+let _enquiry = require('../models/enquiry.js')
 
-router.post('/subscribe', (req, res) => {
-    let email = new _email({
-        email: req.body.email
+router.post('/enquire', (req, res) => {
+    let enquiry = new _enquiry({
+        c: req.body
     })
-    email.save(err => {
+    enquiry.save(err => {
         if (!err) {
             return res.status(200).send('Have a cookie!')
         } else {
