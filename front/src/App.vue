@@ -1,21 +1,21 @@
 <template>
   <div class="god-div">
-      <navbar></navbar>
-      <div v-if="isauthed">
-          <router-view></router-view>
-      </div>
-      <underconstruction v-else></underconstruction>
+    <navbar></navbar>
+    <!-- <div v-if="isauthed"> -->
+    <router-view></router-view>
+    <!-- </div> -->
+    <!-- <underconstruction v-else></underconstruction> -->
   </div>
 </template>
 
 <script>
-    import underconstruction from './components/underconstruction'
+    // import underconstruction from './components/underconstruction'
     import navbar from './components/navbar'
     import { mapActions, mapGetters } from 'vuex'
     export default {
         name: 'app',
         components: {
-            underconstruction,
+            // underconstruction,
             navbar,
         },
         created() {
