@@ -27,11 +27,15 @@ export default {
             return this.itm.title.toLowerCase()
         },
         builddes() {
-            return this.itm.description
-            .replace('/', ' / ')
+            return this.formatnum(this.itm.price) + "rp per " + this.itm.charged
         },
         buildbackgroundlink() {
             return '../assets/' + this.itm.content.imgs[0]
+        },
+    },
+    methods: {
+        formatnum(num) {
+            return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         }
     }
 }
