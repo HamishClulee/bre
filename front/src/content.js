@@ -78,31 +78,62 @@ const C = {
         "title": "Bali Mother Temple Tour",
         "price": 650000,
         "charged": CAR,
-        "link": "https:\/\/baliclassictour.com\/tour\/bali-mother-temple-tour\/",
         "content": {
           "imgs": [
             "Besakih-Temple-1.jpg",
             "tirta-empul-2.jpg",
-            "9.jpg",
             "Telaga-Waja-Rafting-Tour-1.jpg",
             "ubud-royal-place-1.jpg"
           ],
           "description": ["Bali Mother Temple Tour will give you the experience of visiting the Balinese Culture. The first stop will visit the Art Villages of Tohpati Village see the process to make of Batik traditional clothes. Celuk Village to see Gold and Silver Smith then Mas Village to see Wood Carving maker. The next stop is Tirta Empul Natural Spring Water Temple to see the Balinese do purification spiritually. Drive up to see the main attraction on this tour Besakih The mother temple, the massive complex of the temple with the highest volcano in Bali as background. On the way back to your hotel will visit Kehen Temple continues to explore the Traditional Balinese Village of Penglipuran."],
           "location": DEFAULTS.location,
           "tourstart": "08.30",
-          "duration": "",
-          "itinerary": [], // [{"" : ""}, {"" : ""}]
+          "duration": "10 Hours",
+          "itinerary": [
+            {
+              "time": "08.30",
+              "text": "Depart from your Hotel"
+            },
+            {
+              "time": "09.30",
+              "text": "Art Villages: Tohpati, Celuk, Mas Village"
+            },
+            {
+              "time": "11.00",
+              "text": "Tirta Empul Natural Spring Water Temple"
+            },
+            {
+              "time": "13.00",
+              "text": "Lunch"
+            },
+            {
+              "time": "14.00",
+              "text": "Besakih, The Mother Temple"
+            },
+            {
+              "time": "15.30",
+              "text": "Kehen Temple"
+            },
+            {
+              "time": "16.00",
+              "text": "Penglipuran Traditional Vilages"
+            },
+            {
+              "time": "18.30",
+              "text": "Arrive at your Hotel"
+            },
+
+          ], // [{"" : ""}, {"" : ""}]
           "included": DEFAULTS.included,
           "notincluded": DEFAULTS.notincluded,
           "note": DEFAULTS.note,
-          "bring": [], // ["", ""]
+          "bring": ["Sunblock", "Some cash for personal expenses", "Your Camera for some great shots!"], // ["", ""]
         },
       },
       {
         "title": "Bali Eastern Part Tour",
         "price": 650000,
         "charged": CAR,
-        "link": "https:\/\/baliclassictour.com\/tour\/bali-eastern-part-tour\/",
         "content": {
           "imgs": [
             "Tirta-gangga-park-4.jpg",
@@ -111,22 +142,54 @@ const C = {
             "Aling-aling-waterfall.jpg",
             "Telaga-Waja-Rafting-Tour-1.jpg"
           ],
-          "description": [],
+          "description": ["Bali Eastern Part Tour will show the beautiful nature of the eastern part of the Island, the first stop will be one of directional temple Goa Lawah or Bat Cave temple. Then continue to stop at Traditional Salt Maker at Kusamba Village to see how local people make salt traditionally. Drive up to the next destination the old Water Temple Palace of Tirta Gangga. After that we will visit Taman Ujung Palace which offers nice view of mountain and ocean and a well-maintained garden and fish pond. The last stop on East Bali Tour is White Sand Beach or famous with Virgin Beach to relax before going back to your Hotel."],
           "location": DEFAULTS.location,
-          "tourstart": "",
-          "duration": "",
-          "itinerary": [], // [{"" : ""}, {"" : ""}]
+          "tourstart": "08.30",
+          "duration": "10 Hours",
+          "itinerary": [
+            {
+              "time": "08.30",
+              "text": "Depart from your Hotel"
+            },
+            {
+              "time": "09.30",
+              "text": "Goa Lawah/Elephant Cave Temple"
+            },
+            {
+              "time": "11.00",
+              "text": "Traditional Salt Maker"
+            },
+            {
+              "time": "13.00",
+              "text": "Lunch"
+            },
+            {
+              "time": "14.00",
+              "text": "Tirta Gangga Water Palace"
+            },
+            {
+              "time": "15.00",
+              "text": "Taman Ujung Palace"
+            },
+            {
+              "time": "16.00",
+              "text": "White Sand Beach/Virgin Beach"
+            },
+            {
+              "time": "18.30",
+              "text": "Arrive at your Hotel"
+            },
+          ], // [{"" : ""}, {"" : ""}]
           "included": DEFAULTS.included,
           "notincluded": DEFAULTS.notincluded,
           "note": DEFAULTS.note,
-          "bring": [], // ["", ""]
+          "bring": ["Sunblock", "Swimsuit", "Some cash for personal expenses", "Your Camera for some great shots!"], // ["", ""]
         },
       },
       {
         "title": "Bali Northern Part Tour",
         "price": 700000,
         "charged": CAR,
-        "link": "https:\/\/baliclassictour.com\/tour\/bali-northern-part-tour\/",
         "content": {
           "imgs": [
             "Aling-aling-waterfall.jpg",
@@ -137,22 +200,50 @@ const C = {
             "TegenunganWaterfall02.jpg",
             "bali-atv-ride-1.jpg"
           ],
-          "description": [],
+          "description": ["Bali Northern Part Tour will explore the natural beauty of the northern part of the island, start with visiting Taman Ayun the Royal Family Temple, the temple which was built in 1634 surrounded by a moat and a beautiful garden with great stone carving style.  Then continue to drive up to the north to visit jungle natural pool at Aling Aling Waterfall where can slide and swim at a natural swimming pool. On the way back will stop at Bedugul to visit Ulun Danu Temple on the lake. The last stop will be at the traditional fruit market at Candikuning to see any tropical fruit that we produce in Bali."],
           "location": DEFAULTS.location,
-          "tourstart": "",
-          "duration": "",
-          "itinerary": [], // [{"" : ""}, {"" : ""}]
+          "tourstart": "08.30",
+          "duration": "10 Hours",
+          "itinerary": [
+            {
+              "time": "08.30",
+              "text": "Depart from your Hotel"
+            },
+            {
+              "time": "09.30",
+              "text": "Taman Ayun Temple"
+            },
+            {
+              "time": "10.30",
+              "text": "Aling Aling Waterfall"
+            },
+            {
+              "time": "13.00",
+              "text": "Lunch"
+            },
+            {
+              "time": "14.00",
+              "text": "Bedugul/Ulun Danu Temple"
+            },
+            {
+              "time": "16.00",
+              "text": "Candikuning"
+            },
+            {
+              "time": "18.30",
+              "text": "Arrive at your Hotel"
+            },
+          ], // [{"" : ""}, {"" : ""}]
           "included": DEFAULTS.included,
           "notincluded": DEFAULTS.notincluded,
           "note": DEFAULTS.note,
-          "bring": [], // ["", ""]
+          "bring": ["Sunblock", "Swimsuit", "Some cash for personal expenses", "Your Camera for some great shots!"], // ["", ""]
         },
       },
       {
         "title": "Bali Bedugul and Tanah Lot Sunset Tour",
         "price": 600000,
         "charged": CAR,
-        "link": "https:\/\/baliclassictour.com\/tour\/bali-bedugul-and-tanah-lot-sunset-tour\/",
         "content": {
           "imgs": [
             "taman-ayung-temple-6.jpg",
@@ -162,22 +253,54 @@ const C = {
             "Tirta-gangga-park-4.jpg",
             "bali-atv-ride-1.jpg"
           ],
-          "description": [],
+          "description": ["Bali Bedugul and Tanah Lot Sunset Tour will start with visiting Taman Ayun Royal Family Temple, The temple was build in 1634 which surrounded by a moat and beautiful garden. Drive up to the top of the mountain to visit Bedugul, Ulun Danu Temple on the lake with a fascinating panorama with a green mountain as background. Next stop is the traditional fruit market in Candikuning, to get an experience of tropical fruit tasting. Then visit UNESCO world heritage rice terraces of Jatiluwih which refresh your eyes and mind with the green color of rice paddy grass. The last destination will be Tanah Lot Temple on the rock which was built offshore the sea. Here is one of the best sites to see the sunset."],
           "location": DEFAULTS.location,
-          "tourstart": "",
-          "duration": "",
-          "itinerary": [], // [{"" : ""}, {"" : ""}]
+          "tourstart": "08.30",
+          "duration": "10 Hours",
+          "itinerary": [
+            {
+              "time": "08.30",
+              "text": "Depart from your Hotel"
+            },
+            {
+              "time": "09.30",
+              "text": "Taman Ayun Temple"
+            },
+            {
+              "time": "11.00",
+              "text": "Bedugul - Ulun Danu Temple"
+            },
+            {
+              "time": "13.00",
+              "text": "Lunch"
+            },
+            {
+              "time": "14.00",
+              "text": "Candikuning"
+            },
+            {
+              "time": "15.30",
+              "text": "Jatiluwih"
+            },
+            {
+              "time": "16.00",
+              "text": "Tanah Lot"
+            },
+            {
+              "time": "18.30",
+              "text": "Arrive at your Hotel"
+            },
+          ], // [{"" : ""}, {"" : ""}]
           "included": DEFAULTS.included,
           "notincluded": DEFAULTS.notincluded,
           "note": DEFAULTS.note,
-          "bring": [], // ["", ""]
+          "bring": ["Sunblock", "Some cash for personal expenses", "Your camera for some great shots!"], // ["", ""]
         },
       },
       {
         "title": "Bali Nusa Dua and Uluwatu Sunset Tour",
         "price": 550000,
         "charged": CAR,
-        "link": "https:\/\/baliclassictour.com\/tour\/bali-nusa-dua-and-uluwatu-sunset-tour\/",
         "content": {
           "imgs": [
             "Uluwatu-Temple-4.jpg",
@@ -187,21 +310,53 @@ const C = {
             "Ayung-Rafting-1.jpg",
             "Besakih-Temple-1.jpg"
           ],
-          "description": [],
-          "tourstart": "",
-          "duration": "",
-          "itinerary": [], // [{"" : ""}, {"" : ""}]
+          "description": ["Bali Nusa Dua and Uluwatu Sunset Tour's main attraction is to see Kecak and Fire Dance during a beautiful sunset at Uluwatu. This tour will start with visiting white sandy Nusa Dua beach where also you can see the water blow when the tide hits the rock. Then visit Garuda Wisnu Kencana (GWK), which planned to be established a landmark or Bali mascot in the form of the giant statue of Lord of Wisnu ride His vehicle call Garuda.  Continue the tour to visit the beautiful tiny white sandy beaches, Padang Padang Beach. Then we visit the last and main attraction on this tour Uluwatu Temple on a high cliff where you can see a lot of monkeys around the temple. The sunset will perform traditional Kecak and Fire Dance which taken from Ramayana Story which perform by 60 dancers. On the way back to the Hotel you can enjoy the fresh seafood dinner at a local restaurant at Jimbaran Bay where the tables set up on the beach."],
+          "tourstart": "08.30",
+          "duration": "10 Hours",
+          "itinerary": [
+            {
+              "time": "08.30",
+              "text": "Depart from your Hotel"
+            },
+            {
+              "time": "09.30",
+              "text": "Nusa Dua Beach and Water Blow"
+            },
+            {
+              "time": "11.00",
+              "text": "Garuda Wisnu Kencana (GWK)"
+            },
+            {
+              "time": "13.00",
+              "text": "Lunch at GWK"
+            },
+            {
+              "time": "14.00",
+              "text": "Padang Padang Beach"
+            },
+            {
+              "time": "16.00",
+              "text": "Uluwatu Temple and watch Kecak and Fire Dance"
+            },
+            {
+              "time": "17.00",
+              "text": "Jimbaran Bay"
+            },
+            {
+              "time": "18.30",
+              "text": "Arrive at your Hotel"
+            },
+          ], // [{"" : ""}, {"" : ""}]
           "included": DEFAULTS.included,
           "notincluded": DEFAULTS.notincluded,
           "note": DEFAULTS.note,
-          "bring": [], // ["", ""]
+          "bring": ["Sunblock", "Swimsuit", "Some cash for personal expenses", "Your Camera for some great shots!"], // ["", ""]
         },
       },
       {
         "title": "Bali Ubud and Tanah Lot Sunset Tour",
         "price": 600000,
         "charged": CAR,
-        "link": "https:\/\/baliclassictour.com\/tour\/bali-ubud-and-tanah-lot-sunset-tour\/",
         "content": {
           "imgs": [
             "Bali-Tanah-Lot-Temple-17.jpg",
@@ -212,21 +367,57 @@ const C = {
             "TegenunganWaterfall02.jpg",
             "bali-atv-ride-1.jpg"
           ],
-          "description": [],
-          "tourstart": "",
-          "duration": "",
-          "itinerary": [], // [{"" : ""}, {"" : ""}]
+          "description": ["Bali Ubud and Tanah Lot Tour will start to see a traditional Barong and Keris Dance at Batubulan Village, then make a stop at Art Villages such as Batik traditional Clothes factory, Celuk village as the center of Gold and Silver Smith and Mas Village as the center of Wood Carving.  Continue the tour to Batuan Village temple which was built in 1910 and has a unique and artistic stone carving. After that explore the beauty of Sacred Monkey Forest Sanctuary in Ubud.  The next stop is the center of Ubud to explore the Ubud traditional art market and Ubud Palace. Last destination in this trip is Tanah Lot temple on the rock offshore the sea to enjoy one of the magnificent places to see the sunset in Bali."],
+          "tourstart": "08.30",
+          "duration": "10 Hours",
+          "itinerary": [
+            {
+              "time": "08.30",
+              "text": "Depart from your Hotel"
+            },
+            {
+              "time": "09.30",
+              "text": "Watch Barong and Keris Dance"
+            },
+            {
+              "time": "10.30",
+              "text": "Art Villages"
+            },
+            {
+              "time": "11.00",
+              "text": "Batuan Village Temple"
+            },
+            {
+              "time": "13.00",
+              "text": "Lunch"
+            },
+            {
+              "time": "14.00",
+              "text": "Monkey Forest"
+            },
+            {
+              "time": "15.00",
+              "text": "Ubud Art Market and Ubud Palace"
+            },
+            {
+              "time": "16.00",
+              "text": "Tanah Lot Temple"
+            },
+            {
+              "time": "18.30",
+              "text": "Arrive at your Hotel"
+            },
+          ], // [{"" : ""}, {"" : ""}]
           "included": DEFAULTS.included,
           "notincluded": DEFAULTS.notincluded,
           "note": DEFAULTS.note,
-          "bring": [], // ["", ""]
+          "bring": ["Sunblock", "Some cash for personal expense", "Your Camera for some great shots!"], // ["", ""]
         },
       },
       {
         "title": "Bali Ubud Waterfall Tour",
         "price": 550000,
         "charged": CAR,
-        "link": "https:\/\/baliclassictour.com\/tour\/bali-ubud-waterfall-tour\/",
         "content": {
           "imgs": [
             "TegenunganWaterfall02.jpg",
@@ -235,14 +426,53 @@ const C = {
             "Bali-Water-Ski-Tour-8.jpg",
             "ubud-royal-place-1.jpg"
           ],
-          "description": [],
-          "tourstart": "",
-          "duration": "",
-          "itinerary": [], // [{"" : ""}, {"" : ""}]
+          "description": ["Ubud waterfall tour is a combination between culture and nature beauty, the first stop will be at Tegenungan Waterfall, a waterfall that has a stunning view along the way down and allow you to swim in there. Then we will direct you to visit Goa Gajah Elephant Cave Temple, one of the archeological site which has amazing relief and was built date back to 13th – 14th Century. Then drive up to see Tegalalang Rice Terraces. On the way back will make a stop to explore the Sacred Monkey Forest Sanctuary in the center of Ubud.",
+          "After that will explore the traditional art market of Ubud Market where you can visit Ubud Royal Palace and Saraswati  Temple which located close to the market."
+          ],
+          "tourstart": "08.30",
+          "duration": "10 Hours",
+          "itinerary": [
+            {
+              "time": "08.30",
+              "text": "Depart from your Hotel"
+            },
+            {
+              "time": "09.30",
+              "text": "Tegenungan Waterfalls"
+            },
+            {
+              "time": "10.30",
+              "text": "Goa Gajah (AKA The Elephant Cave) Temple"
+            },
+            {
+              "time": "11.00",
+              "text": "Monkey Forest"
+            },
+            {
+              "time": "13.00",
+              "text": "Lunch"
+            },
+            {
+              "time": "14.00",
+              "text": "Tegalalang Rice Terraces"
+            },
+            {
+              "time": "15.30",
+              "text": "Ubud Art Market"
+            },
+            {
+              "time": "16.00",
+              "text": "Ubud Royal Palace and Saraswati Temple"
+            },
+            {
+              "time": "18.30",
+              "text": "Arrive at your Hotel"
+            },
+          ], // [{"" : ""}, {"" : ""}]
           "included": DEFAULTS.included,
           "notincluded": DEFAULTS.notincluded,
           "note": DEFAULTS.note,
-          "bring": [], // ["", ""]
+          "bring": ["Sunblock", "Swimsuit", "Some cash for personal expenses", "Your Camera for some great shots!"], // ["", ""]
         },
       },
     ],
@@ -251,7 +481,6 @@ const C = {
         "title": "Bali Uluwatu Tour",
         "price": 450000,
         "charged": CAR,
-        "link": "https:\/\/baliclassictour.com\/tour\/bali-uluwatu-tour\/",
         "content": {
           "imgs": [
             "Uluwatu-Temple-11.jpg",
@@ -260,14 +489,14 @@ const C = {
             "turbing.jpg",
             "Tirta-gangga-park-4.jpg"
           ],
-          "description": [],
-          "tourstart": "",
-          "duration": "",
-          "itinerary": [], // [{"" : ""}, {"" : ""}]
+          "description": ["The Uluwatu Tour will bring you to the wonderful memory with three different experiences as the feature of this package. This half-day tour is an exciting short trip to visit the Uluwatu Temple, the most famous Balinese temple in the south part of Bali. This temple has a breathtaking sunset view of rock cliff temple facing the Indian ocean. The temple is located right on the petrifying hill with the crevasse that exists on the right and left side. Then the tour continues to enjoy watching the Kecak and Fire Dance performance near the temple in an open-air theatre. This is a spectacular traditional Balinese dance with a group of people dancing with fire, and then the tour will continue to visit Jimbaran Bay Beach. Next, you can have a delicious seafood dinner on the beach. This place is located in the southern part of Bali with seafood restaurants along the beautiful beach."],
+          "tourstart": "13.00",
+          "duration": "6 Hours",
+          "itinerary": ["Uluwatu Temple", "Watch Kecak and Fire Dance", "Jimbaran Bay Beach", "Fresh Seafood Dinner at the Bay"], // [{"" : ""}, {"" : ""}]
           "included": DEFAULTS.included,
           "notincluded": DEFAULTS.notincluded,
           "note": DEFAULTS.note,
-          "bring": [], // ["", ""]
+          "bring": ["Sunblock", "Some cash for personal expenses", "Your Camera for some great shots!"], // ["", ""]
         },
       },
       {
@@ -459,7 +688,7 @@ const C = {
       {
         "title": "Bali Mount Batur Sunrise Trekking",
         "price": 850000,
-        "charged": PERSON,  
+        "charged": PERSON,
         "link": "https:\/\/baliclassictour.com\/tour\/bali-mount-batur-sunrise-trekking\/",
         "content": {
           "imgs": [
@@ -514,7 +743,6 @@ const C = {
             "Mount-Batur-Sunrise-5.jpg",
             "toya-bungkah.jpg",
             "Ayung-Rafting-1.jpg",
-            "9.jpg",
             "Mount-Agung-Sunrise-10.jpg",
             "Aling-aling-waterfall.jpg"
           ],
@@ -586,7 +814,6 @@ const C = {
             "Bali-Ulun-Danu-Berata-2.jpg",
             "Bali-Tanah-Lot-Temple-17.jpg",
             "Bali-Water-Ski-Tour-8.jpg",
-            "9.jpg"
           ],
           "description": [],
           "tourstart": "",

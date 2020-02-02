@@ -4,8 +4,23 @@
             <h1>Welcome to Bali Hao Tours!</h1>
             <h5>Experienced guides, unforgetable memories.</h5>
             <p>
-                Complete this text...
+                Connecting travelers to the island's hidden gems, unique local tours, nightlife tours, 
+                and personalized experiences. We are here to help you experience something new and create memories 
+                that will last a lifetime!
             </p>
+            <h2>About Us</h2>
+            <p>
+                Bali Hao is a tour and travel agency based in Bali, Indonesia. 
+                We were officially established in 2010. The goal is connecting travelers to the 
+                best things-to-do and all scenic spots in Bali, the island of incredible cultural and artistic richness!
+            </p>
+            <p>
+                In addition, we also provide reliable and knowledgeable tour guide. They are the best to 
+                take you to the island's hidden gems, unique local tours, nightlife tours, and personalized experiences. 
+                We are here to help you experience something new and create memories that will last a lifetime!.
+            </p>
+            <h4>Get in touch via whatsapp</h4>
+            <h5>WhatsApp : +62 812 37362707</h5>
         </div>
         <fpsection heading="Full Day Tours">
             <fpgrid heading="Full Day Tours" type="fullday" :content="c.C.fullday"></fpgrid>
